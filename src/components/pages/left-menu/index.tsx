@@ -18,6 +18,16 @@ const menuLists = [
         name: 'About',
         link: '/about',
         icon: faAddressCard
+    },
+    {
+        name: 'Resume',
+        link: '/resume',
+        icon: faHouse
+    },
+    {
+        name: 'Skills',
+        link: '/skills',
+        icon: faHouse
     }
 ]
 
