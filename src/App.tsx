@@ -27,8 +27,8 @@ const App: FunctionComponent = () => {
                 </div>
                 <div className={`${getSlide ? 'w-[85%]' : 'w-[75%]' } duration-500`}>   
                     <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/resume" element={<Resume />} />
+                        <Route path="/My-Resume/" element={<Home />} />
+                        <Route path="/My-Resume/resume" element={<Resume />} />
                     </Routes>
                 </div>
             </div>
