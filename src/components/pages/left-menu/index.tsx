@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react'
 import './index.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHouse, faAddressCard } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHouse, faFile, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faFacebookF, faInstagram, faGithubAlt } from '@fortawesome/free-brands-svg-icons'
 import { NavLink } from 'react-router-dom'
 
@@ -14,21 +14,21 @@ const menuLists = [
         link: '/',
         icon: faHouse
     },
-    {
-        name: 'About',
-        link: '/about',
-        icon: faAddressCard
-    },
+    // {
+    //     name: 'About',
+    //     link: '/about',
+    //     icon: faAddressCard
+    // },
     {
         name: 'Resume',
         link: '/resume',
-        icon: faHouse
+        icon: faFile
     },
-    {
-        name: 'Skills',
-        link: '/skills',
-        icon: faHouse
-    }
+    // {
+    //     name: 'Skills',
+    //     link: '/skills',
+    //     icon: faHouse
+    // }
 ]
 
 const LeftMenu: FunctionComponent = () => {
@@ -47,6 +47,14 @@ const LeftMenu: FunctionComponent = () => {
                         </div>
                         <div className='my-auto'>
                             <p className='text-gray-200 text-[14px] text-center'>fullyz1532@gmail.com</p>
+                        </div>
+                    </div>
+                    <div className='bg-[#3B3B3B] w-[220px] m-auto rounded-full flex justify-center h-[32px] mt-4'>
+                        <div className='mr-2 my-auto'>
+                            <FontAwesomeIcon className='text-gray-300 text-[16px]' icon={faPhone} />
+                        </div>
+                        <div className='my-auto'>
+                            <p className='text-gray-200 text-[14px] text-center'>061-6450118</p>
                         </div>
                     </div>
                 </div>

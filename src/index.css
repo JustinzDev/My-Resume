@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 * {
+    overflow: hidden;
     font-family: 'Noto Sans Thai', sans-serif;
 }
