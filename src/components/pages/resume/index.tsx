@@ -20,7 +20,7 @@ const Resume: FunctionComponent = () => {
                         <div className='bg-black/50 rounded-lg w-auto h-auto p-4 mt-2'>
                             <p className='text-white text-[20px]'>
                                 Hello, My name is Sakkarin Simma. My nickname is Fluk.
-                                I was born on 1 December 2000, But now I'm 22 year olds.
+                                I was born on 1 December 2000, I'm 22 year olds.
                                 Study at King Mongkut's University of Technology North Bangkok,
                                 Science major in Computer Science
                             </p>
