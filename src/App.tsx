@@ -6,7 +6,6 @@ import { faAngleLeft } from '@fortawesome/free-solid-svg-icons'
 
 // components > pages
 import LeftMenu from './components/pages/left-menu'
-import Home from './components/pages/home'
 import Resume from './components/pages/resume'
 
 const App: FunctionComponent = () => {
@@ -27,8 +26,7 @@ const App: FunctionComponent = () => {
                 </div>
                 <div className={`${getSlide ? 'w-[85%]' : 'w-[75%]' } duration-500`}>   
                     <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/resume" element={<Resume />} />
+                        <Route path="/" element={<Resume />} />
                     </Routes>
                 </div>
             </div>

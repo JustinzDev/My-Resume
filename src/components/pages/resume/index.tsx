@@ -19,10 +19,13 @@ const Resume: FunctionComponent = () => {
                         <p className='text-white text-[20px] font-semibold'>ABOUT ME</p>
                         <div className='bg-black/50 rounded-lg w-auto h-auto p-4 mt-2'>
                             <p className='text-white text-[20px]'>
-                                Hello, My name is Sakkarin Simma. My nickname is Fluk.
-                                I was born on 1 December 2000, I'm 22 year olds.
-                                Study at King Mongkut's University of Technology North Bangkok,
-                                Science major in Computer Science
+                                Hi, I'm Sakkarin Simma, but most people call me Fluk. 
+                                I'm a 22-year-old student at King Mongkut's University of Technology North Bangkok, 
+                                majoring in Computer Science. As someone who's always been fascinated by technology and its ability to transform our lives, 
+                                I'm excited to be pursuing a degree in this field. Through my studies, I've gained hands-on experience in Fullstack Developer, 
+                                and I'm looking forward to applying these skills in a professional setting. 
+                                I'm eager to take on new challenges and contribute to the success of a dynamic and innovative company. 
+                                Thank you for considering my application.
                             </p>
                         </div>
                         <p className='text-white text-[20px] font-semibold mt-5'>PROJECT & WORK EXPERIENCE</p>

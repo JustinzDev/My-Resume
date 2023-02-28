@@ -9,11 +9,6 @@ import { NavLink } from 'react-router-dom'
 import Profile from '../../../assets/images/profile.jpg'
 
 const menuLists = [
-    {
-        name: 'Home',
-        link: '/',
-        icon: faHouse
-    },
     // {
     //     name: 'About',
     //     link: '/about',
@@ -21,7 +16,7 @@ const menuLists = [
     // },
     {
         name: 'Resume',
-        link: '/resume',
+        link: '/',
         icon: faFile
     },
     // {
