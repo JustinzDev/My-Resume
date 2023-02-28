@@ -30,13 +30,13 @@ const LeftMenu: FunctionComponent = () => {
 
     return (
         <>
-            <div className='h-screen bg-[#1D1D1D] drop-shadow-lg'>
+            <div className='h-screen bg-[#192A47] drop-shadow-lg'>
                 <div className='w-[220px] m-auto pt-10 pb-6'>
-                    <img draggable="false" className='object-cover w-[220px] h-[220px] rounded-full border-[6px] border-[#3B3B3B]/30 select-none' src={Profile} alt="Profile" />
+                    <img draggable="false" className='object-cover w-[220px] h-[220px] rounded-full border-[6px] border-[#2A4778]/30 select-none' src={Profile} alt="Profile" />
                 </div>
                 <div className='w-full m-auto pb-5'>
                     <p className='text-gray-300 text-[26px] text-center'>SAKKARIN SIMMA</p>
-                    <div className='bg-[#3B3B3B] w-[220px] m-auto rounded-full flex justify-center h-[32px] mt-1'>
+                    <div className='bg-[#2A4778] w-[220px] m-auto rounded-full flex justify-center h-[32px] mt-1'>
                         <div className='mr-2 my-auto'>
                             <FontAwesomeIcon className='text-gray-300 text-[16px]' icon={faEnvelope} />
                         </div>
@@ -44,7 +44,7 @@ const LeftMenu: FunctionComponent = () => {
                             <p className='text-gray-200 text-[14px] text-center'>fullyz1532@gmail.com</p>
                         </div>
                     </div>
-                    <div className='bg-[#3B3B3B] w-[220px] m-auto rounded-full flex justify-center h-[32px] mt-4'>
+                    <div className='bg-[#2A4778] w-[220px] m-auto rounded-full flex justify-center h-[32px] mt-4'>
                         <div className='mr-2 my-auto'>
                             <FontAwesomeIcon className='text-gray-300 text-[16px]' icon={faPhone} />
                         </div>
@@ -55,7 +55,7 @@ const LeftMenu: FunctionComponent = () => {
                 </div>
                 <div className='flex justify-center'>
                     <a href="https://www.facebook.com/sakkarin.simma.1/" target="_blank" rel="noreferrer">
-                        <div className='group flex bg-[#3B3B3B] p-[5px] w-[35px] hover:w-[120px] h-[35px] rounded-full cursor-pointer hover:bg-[#3B3B3B]/50 duration-500 mr-5 text-center'>
+                        <div className='group flex bg-[#2A4778] p-[5px] w-[35px] hover:w-[120px] h-[35px] rounded-full cursor-pointer hover:bg-[#2A4778]/50 duration-500 mr-5 text-center'>
                             <div className='group-hover:w-[30%] group-hover:text-center m-auto'>
                                 <FontAwesomeIcon className='text-gray-300 text-[16px]' icon={faFacebookF} />
                             </div>
@@ -65,7 +65,7 @@ const LeftMenu: FunctionComponent = () => {
                         </div>
                     </a>
                     <a href="https://www.instagram.com/fskrsm/" target="_blank" rel="noreferrer">
-                        <div className='group flex bg-[#3B3B3B] p-[5px] w-[35px] hover:w-[120px] h-[35px] rounded-full cursor-pointer hover:bg-[#3B3B3B]/50 duration-500 mr-5 text-center'>
+                        <div className='group flex bg-[#2A4778] p-[5px] w-[35px] hover:w-[120px] h-[35px] rounded-full cursor-pointer hover:bg-[#2A4778]/50 duration-500 mr-5 text-center'>
                             <div className='group-hover:w-[30%] group-hover:text-center m-auto'>
                                 <FontAwesomeIcon className='text-gray-300 text-[16px]' icon={faInstagram} />
                             </div>
@@ -75,7 +75,7 @@ const LeftMenu: FunctionComponent = () => {
                         </div>
                     </a>
                     <a href="https://github.com/JustinzDev" target="_blank" rel="noreferrer">
-                        <div className='group flex bg-[#3B3B3B] p-[5px] w-[35px] hover:w-[120px] h-[35px] rounded-full cursor-pointer hover:bg-[#3B3B3B]/50 duration-500 mr-5 text-center'>
+                        <div className='group flex bg-[#2A4778] p-[5px] w-[35px] hover:w-[120px] h-[35px] rounded-full cursor-pointer hover:bg-[#2A4778]/50 duration-500 mr-5 text-center'>
                             <div className='group-hover:w-[30%] group-hover:text-center m-auto'>
                                 <FontAwesomeIcon className='text-gray-300 text-[16px]' icon={faGithubAlt} />
                             </div>
@@ -90,7 +90,7 @@ const LeftMenu: FunctionComponent = () => {
                         menuLists.map((index, i) => {
                             return (
                                 <NavLink className={({ isActive }) =>
-                                    isActive ? 'px-10 group py-4 text-gray-200 cursor-pointer hover:bg-[#3B3B3B]/30 duration-300 rounded-sm flex mt-2 bg-[#3B3B3B]/30' : 'px-10 group py-4 text-gray-200 cursor-pointer hover:bg-[#3B3B3B]/30 duration-300 rounded-sm flex mt-2'
+                                    isActive ? 'px-10 group py-4 text-gray-200 cursor-pointer hover:bg-[#2A4778]/30 duration-300 rounded-sm flex mt-2 bg-[#2A4778]/30' : 'px-10 group py-4 text-gray-200 cursor-pointer hover:bg-[#3B3B3B]/30 duration-300 rounded-sm flex mt-2'
                                 } to={index.link} key={i}>
                                     <FontAwesomeIcon className='mr-3 mt-[2px] text-[20px]' icon={index.icon} /> <p className='text-[18px] group-hover:px-3 duration-300'>{index.name}</p>
                                 </NavLink>

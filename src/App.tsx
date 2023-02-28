@@ -12,10 +12,10 @@ const App: FunctionComponent = () => {
     return (
         <>
             <div className='flex w-full h-screen'>
-                <div className={`2xl:w-[15%] w-[30%] duration-500`}>
+                <div className={`2xl:w-[15%] w-[25%] duration-500`}>
                     <LeftMenu />
                 </div>
-                <div className={`2xl:w-[85%] w-[70%] duration-500`}>   
+                <div className={`2xl:w-[85%] w-[75%] duration-500`}>   
                     <Routes>
                         <Route path="/" element={<Resume />} />
                     </Routes>
