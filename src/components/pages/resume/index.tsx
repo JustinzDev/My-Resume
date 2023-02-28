@@ -75,7 +75,7 @@ const Resume: FunctionComponent = () => {
                                 </p>
                             </div>
 
-                            <p className='mt-2 p-2 text-gray-300 text-[12px]'>All source code and examples of the project are on my github.</p>
+                            <p className='mt-2 p-2 text-gray-300 text-[12px]'>All source code and examples of the project are on my <a href="https://github.com/JustinzDev" target="_blank" rel="noreferrer" className='underline underline-offset-4'>github</a>.</p>
                         </div>
                     </div>
                     <div className='pt-[40px] pl-[40px] ml-[20px] w-[48%] animate__animated animate__fadeInRight'>

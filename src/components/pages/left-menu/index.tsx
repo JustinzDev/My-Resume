@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react'
 import './index.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHouse, faFile, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faFile, faPhone, faList } from '@fortawesome/free-solid-svg-icons'
 import { faFacebookF, faInstagram, faGithubAlt } from '@fortawesome/free-brands-svg-icons'
 import { NavLink } from 'react-router-dom'
 
@@ -19,6 +19,11 @@ const menuLists = [
         link: '/',
         icon: faFile
     },
+    {
+        name: 'Workings',
+        link: '/slideshow',
+        icon: faList
+    }
     // {
     //     name: 'Skills',
     //     link: '/skills',
@@ -32,7 +37,7 @@ const LeftMenu: FunctionComponent = () => {
         <>
             <div className='h-screen bg-[#192A47] drop-shadow-lg'>
                 <div className='w-[220px] m-auto pt-10 pb-6'>
-                    <img draggable="false" className='object-cover w-[220px] h-[220px] rounded-full border-[6px] border-[#2A4778]/30 select-none' src={Profile} alt="Profile" />
+                    <img draggable="false" className='object-cover w-[220px] h-[220px] rounded-full border-[6px] border-[#2A4778]/30 select-none hover:origin-center hover:rotate-[360deg] duration-1000' src={Profile} alt="Profile" />
                 </div>
                 <div className='w-full m-auto pb-5'>
                     <p className='text-gray-300 text-[26px] text-center'>SAKKARIN SIMMA</p>
@@ -75,12 +80,12 @@ const LeftMenu: FunctionComponent = () => {
                         </div>
                     </a>
                     <a href="https://github.com/JustinzDev" target="_blank" rel="noreferrer">
-                        <div className='group flex bg-[#2A4778] p-[5px] w-[35px] hover:w-[120px] h-[35px] rounded-full cursor-pointer hover:bg-[#2A4778]/50 duration-500 mr-5 text-center'>
+                        <div className='group flex bg-[#FFDF3F] p-[5px] w-[35px] hover:w-[120px] h-[35px] rounded-full cursor-pointer hover:bg-[#FFDF3F] duration-500 mr-5 text-center'>
                             <div className='group-hover:w-[30%] group-hover:text-center m-auto'>
-                                <FontAwesomeIcon className='text-gray-300 text-[16px]' icon={faGithubAlt} />
+                                <FontAwesomeIcon className='text-black text-[16px]' icon={faGithubAlt} />
                             </div>
                             <div className='social absolute group-hover:static group-hover:visible group-hover:opacity-100 m-auto w-0 group-hover:w-[70%] pr-3'>
-                                <p className='text-white text-[14px]'>Github</p>
+                                <p className='text-black text-[14px] font-[600]'>Github</p>
                             </div>
                         </div>
                     </a>

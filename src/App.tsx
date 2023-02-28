@@ -1,12 +1,10 @@
-import React, { FunctionComponent, useState } from 'react'
+import React, { FunctionComponent } from 'react'
 import { Routes, Route } from 'react-router-dom'
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleLeft } from '@fortawesome/free-solid-svg-icons'
 
 // components > pages
 import LeftMenu from './components/pages/left-menu'
 import Resume from './components/pages/resume'
+import SlideShow from './components/pages/slideshow'
 
 const App: FunctionComponent = () => {
     return (
@@ -18,6 +16,7 @@ const App: FunctionComponent = () => {
                 <div className={`2xl:w-[85%] w-[75%] duration-500`}>   
                     <Routes>
                         <Route path="/" element={<Resume />} />
+                        <Route path="/slideshow" element={<SlideShow />} />
                     </Routes>
                 </div>
             </div>
